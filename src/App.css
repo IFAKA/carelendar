@@ -115,10 +115,14 @@ input {
   padding: 8px
 }
 
-input:before {
+input[type=time]:before {
   content: 'Time';
   margin-right: .6em;
-  color: #9d9d9d;
+}
+
+input[type=date]:before {
+  content: 'Date';
+  margin-right: .6em;
 }
 
 .weekdays {
