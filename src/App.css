@@ -116,7 +116,7 @@ input {
 }
 
 input:before {
-  content: 'Time:';
+  content: 'Time';
   margin-right: .6em;
   color: #9d9d9d;
 }
